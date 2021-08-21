@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AEFFEE"
+    tools:context=".ui.Thongke.ThongkeFragment">
+
+    <TextView
+    android:id="@+id/textView6"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:text="BIỂU ĐỒ THỐNG KÊ"
+    android:textSize="25dp"
+    android:textColor="@color/black"
+    android:gravity="center"
+    android:background="@color/teal_200"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/piechart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="28dp"
+        android:layout_below="@id/textView6">
+    </com.github.mikephil.charting.charts.PieChart>
+
+    <TextView
+        android:id="@+id/tv_tongthu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:text="text"
+        android:gravity="center"
+        android:textColor="#C12752"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_tongchi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_tongthu"
+        android:layout_marginTop="10dp"
+        android:text="text"
+        android:gravity="center"
+        android:textColor="#FF6600"
+        android:textSize="20dp"/>
+
+</RelativeLayout>

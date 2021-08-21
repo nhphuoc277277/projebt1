@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Gioithieu.GioithieuFragment">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/banner123" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhà phát triển: Phước Nguyễn"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="300dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngày phát hành: 01/01/2000"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="350dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên ứng dụng: Bán giày"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="400dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/iv_fb"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/fb"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="100dp"/>
+    <ImageView
+        android:id="@+id/iv_twitter"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/tw1"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="180dp"/>
+    <ImageView
+        android:id="@+id/iv_gg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/gg"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="260dp"/>
+</FrameLayout>
